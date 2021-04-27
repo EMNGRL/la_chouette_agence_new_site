@@ -8,7 +8,7 @@ Accueil :
 
 Catégorie travaux : 270 x 270px
 
-Catégorie travaux agrandis : 832 x 832px (mettre toutes les autres au même format) 
+Catégorie travaux agrandis : 628 x 68px (mettre toutes les autres au même format) 
 
 3ème : Max 1920 x 364px
 
@@ -26,3 +26,13 @@ Catégorie travaux : - 1003 x 1003px
 		    - 320 x 320px
 
 3ème : max 1920 x 785px
+
+
+----------------------------------------------------------------------------------------
+
+CHANGEMENTS FAIT SUR LES IMAGES CATEGORIES TRAVAUX : 
+
+Taille > 628  628px
+Résolution > 72dpi
+Qualité > 10/12
+Format d'image > JPG et non bmp
