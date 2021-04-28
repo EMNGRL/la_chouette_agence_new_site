@@ -1,3 +1,29 @@
+@font-face {
+    font-family: 'kingthings_petrockregular';
+    src: url('Kingthings_Petrock-webfont.eot');
+    src: url('Kingthings_Petrock-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Kingthings_Petrock-webfont.woff2') format('woff2'),
+         url('Kingthings_Petrock-webfont.woff') format('woff'),
+         url('Kingthings_Petrock-webfont.ttf') format('truetype'),
+         url('Kingthings_Petrock-webfont.svg#kingthings_petrockregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'kingthings_petrock_lightRg';
+    src: url('Kingthings_Petrock_light-webfont.eot');
+    src: url('Kingthings_Petrock_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Kingthings_Petrock_light-webfont.woff2') format('woff2'),
+         url('Kingthings_Petrock_light-webfont.woff') format('woff'),
+         url('Kingthings_Petrock_light-webfont.ttf') format('truetype'),
+         url('Kingthings_Petrock_light-webfont.svg#kingthings_petrock_lightRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -6,6 +32,8 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+
 
 a,
 button {
@@ -39,7 +67,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 65px 50px;
 }
 
 .bloc-md {
@@ -85,7 +113,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -127,7 +154,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #ffd051;
 }
 
 .d-bloc .a-btn:hover,
@@ -271,6 +298,7 @@ a:hover {
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
+    margin-bottom: 7%;
 }
 
 #bloc-1-hero h1 {
@@ -285,6 +313,9 @@ a:hover {
 
 .navbar-brand {
     height: auto;
+    display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .navbar-brand img {
@@ -296,6 +327,14 @@ a:hover {
 .navbar-brand img[src$=svg] {
     min-width: 100px;
 }
+
+.navbar-brand p{
+	font-family: kingthings_petrock_lightRg;
+	color: #303030;
+	font-size: 35px;
+	margin : 0;
+}
+
 
 .nav-center .navbar-brand img {
     margin: 0;
@@ -667,7 +706,6 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
     margin: auto auto auto auto;
 }
 
@@ -691,8 +729,10 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 21px;
     line-height: 1.4em;
+    max-width: 80%;
+    margin : auto;
 }
 
 h3 {
@@ -734,13 +774,13 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(48, 48, 48, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
+    text-decoration: none;
 }
 
 .bgc-white {
@@ -748,20 +788,20 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #303030;
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #303030;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffd051!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #ffd051;
+    color: #303030!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -770,7 +810,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color:#ffd051!important;
 }
 
 .ltc-white:hover {
@@ -796,10 +836,6 @@ h4 {
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
-}
-
-.bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
