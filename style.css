@@ -216,7 +216,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0, .8);
 }
 
 .d-bloc .panel button:hover,
@@ -483,7 +483,7 @@ nav .caret {
 .btn-d:hover,
 .btn-d:focus {
     color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    background: #ffd051!important;
 }
 
 button {
@@ -932,7 +932,7 @@ h4 {
     }
     .navbar .nav {
         padding-top: 0;
-        border-top: 1px solid rgba(0, 0, 0, .2);
+        border-top: 1px solid rgba(48, 48, 48, 1) !important;
         float: none!important;
     }
     .navbar.row {
@@ -947,8 +947,8 @@ h4 {
     }
     .nav > li {
         margin-top: 0;
-        border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
+        border-bottom: 1px solid rgba(48, 48, 48, 1) !important;
+        background: rgba(255, 208, 81, 1) !important;
         text-align: left;
         padding-left: 15px;
         width: 100%;
@@ -956,6 +956,11 @@ h4 {
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
     }
+
+    .l-bloc .navbar a{
+    	color: #303030;
+    }
+
     .dropdown .dropdown a .caret {
         float: none;
         margin: 5px 0 0 10px!important;
@@ -1003,6 +1008,7 @@ h4 {
     .bloc-xl,
     .bloc-lg {
         padding: 40px 0;
+        width: 80%;
     }
     .bloc-sm,
     .bloc-md {
@@ -1030,7 +1036,9 @@ h4 {
         margin-top: 20px;
     }
     .voffset-lg {
-        margin-top: 30px;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 5%;
     }
     form {
         padding: 5px;
@@ -1048,6 +1056,25 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
+    .row.row-no-gutters > [class^="col-"],
+	.row.row-no-gutters > [class*=" col-"] {
+	    padding-right: 0;
+	    padding-left: 0;
+	    margin-bottom: 7%;
+	    margin-left: 13%;
+	    display: inline-block;
+	    text-align: center;
+	}
+
+	.col-sm-6{
+		margin-bottom: 5%;
+	}
+
+	.portfolio-row{
+		margin-top: 30px;
+		margin-bottom: 0;
+	}
 }
 
 @media (max-width: 400px) {
